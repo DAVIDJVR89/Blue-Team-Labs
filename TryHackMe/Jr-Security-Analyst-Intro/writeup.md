@@ -30,7 +30,7 @@ This pattern (multiple failed attempts followed by a successful access within a 
 
 I used the *IP Hunter* module of the SIEM to analyze the IP flagged in the critical alert, obtaining the ISP, Domain Name and Country and confirming that the IP has been involved in previous Cyber Attacks.
 
-To reinforce the investigation, I also cross-checked the IP independently on [WHOIS Domain Tools](https://whois.domaintools.com/), reviewing its WHOIS record (owning organization, country of origin, associated network range). Although the SIEM already provided sufficient context, I consider it good practice to **verify findings with an external source** before confirming an IP as malicious — especially in a real environment, where an incorrect attribution could lead to blocking legitimate traffic or escalating a false positive.
+To reinforce the investigation, I also cross-checked the IP independently on [WHOIS Domain Tools](https://whois.domaintools.com/), reviewing its WHOIS record (owning organization, country of origin, associated network range). Although the SIEM already provided sufficient context, I consider it good practice to **verify findings with an external source** before confirming an IP as malicious, especially in a real environment, where an incorrect attribution could lead to blocking legitimate traffic or escalating a false positive.
 
 Both sources agreed that the IP did not belong to an expected range for the organization, reinforcing the conclusion of unauthorized activity.
 
