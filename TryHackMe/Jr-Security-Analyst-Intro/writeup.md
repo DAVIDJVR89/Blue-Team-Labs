@@ -24,7 +24,7 @@ The Alerts dashboard already displayed alerts sorted by severity (Critical, Medi
 
 This pattern (multiple failed attempts followed by a successful access within a short time window) is the classic signature of a **brute-force attack** against the SSH service. Recognizing this sequence came faster thanks to my offensive background (eJPTv2): having practiced this type of attack from the attacker's side (for example, using tools like Hydra against SSH services) allows me to identify its footprint in the logs with more context than if I only knew the defensive theory. Seeing the attack "from the other side" helps understand what it looks like in the SIEM: a burst of failed attempts + a final success from the same IP.
 
-*(<img width="1206" height="442" alt="image" src="https://github.com/user-attachments/assets/27ac6f08-7a38-48f5-9958-e69eb39ea35c" />)*
+*<img width="1206" height="442" alt="image" src="https://github.com/user-attachments/assets/27ac6f08-7a38-48f5-9958-e69eb39ea35c" />*
 
 ### 2. Investigating the suspicious IP
 
