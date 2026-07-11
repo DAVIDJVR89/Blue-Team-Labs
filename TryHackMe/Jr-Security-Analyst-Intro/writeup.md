@@ -46,7 +46,7 @@ As an immediate containment measure, I accessed the *Firewall* module and added 
 
 This action closes the full incident cycle covered in this room: **detection → investigation → escalation → containment**, which is the basic flow followed by any SOC analyst when facing a confirmed threat.
 
-*(Insert screenshot here — Firewall block list showing the entry)*
+*<img width="1032" height="237" alt="image" src="https://github.com/user-attachments/assets/348e2013-cdec-4de9-944d-ca4d786d80b1" />*
 
 ---
 
@@ -55,13 +55,13 @@ This action closes the full incident cycle covered in this room: **detection →
 - Alert prioritization by severity (triage)
 - Recognizing attack patterns (brute force) directly in SIEM logs/alerts
 - Cross-verifying indicators with external OSINT sources (WHOIS) before confirming a threat
-- The difference between detection (identifying) and response (escalating) — the Tier 1 role focuses on the former
+- The difference between detection (identifying) and response (escalating)
 - Applying immediate containment measures (firewall block) with clear documentation of the reason
 - Structured escalation process as part of the SOC workflow
 
 ## 📌 Reflection
 
-Although this room is introductory, it reinforces the full incident response cycle: identify, investigate, escalate, and contain. My previous offensive background (eJPTv2) proved practically useful here: understanding how a brute-force attack is executed helps recognize it faster in a SIEM, and complementing the investigation with external sources like WHOIS reinforces the habit of not relying on a single tool when confirming a threat. Seeing the process from start to finish — including the final containment step via a documented firewall block — helps clarify why each step matters: detecting is not enough, you also need to act and leave a clear record of that action.
+Although this room is introductory, it reinforces the full incident response cycle: identify, investigate, escalate, and contain. My previous offensive background (eJPTv2) proved practically useful here: understanding how a brute-force attack is executed helps recognize it faster in a SIEM, and complementing the investigation with external sources like WHOIS reinforces the habit of not relying on a single tool when confirming a threat. Seeing the process from start to finish, including the final containment step via a documented firewall block, helps clarify why each step matters: detecting is not enough, you also need to act and leave a clear record of that action.
 
 ---
 
